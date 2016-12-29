@@ -1,10 +1,11 @@
 # ansible-role-sublimetext
 
-Ansible role to install and configure Sublime Text 3 on Macos.
+Ansible role to install and configure Sublime Text 3 on macOS.
 
 ## Requirements
 
-* Macos 10.10 or 10.11
+* macOS 10.11 or greater
+* Homebrew
 
 ## Role variables
 
@@ -15,10 +16,10 @@ sublime_packages:
   - dest: "Theme - Soda"
     repo: "https://github.com/buymeasoda/soda-theme.git"
     version: "master"
-  - dest: "Base16"
-    repo: "https://github.com/chriskempson/base16-textmate.git"
+  - dest: "Monokai Gray"
+    repo: "https://github.com/IanWold/MonokaiGray.git"
     version: "master"
-sublime_text_color_scheme: "Packages/Base16/base16-eighties.dark.tmTheme"
+sublime_text_color_scheme: "MonokaiGray (SL).tmTheme"
 sublime_text_theme: "Soda Dark 3.sublime-theme"
 ```
 
@@ -60,7 +61,7 @@ More extensive set:
 
 # Usage
 
-Check [Superlumic](https://github.com/superlumic/superlumic) for documentation
+
 
 # License
 
