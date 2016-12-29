@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Brian Macauley
+  description: Ansible role to install and configure Sublime Text 3 on Macos 10.11 and up
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+    - name: Darwin
+      versions:
+        - all
+  categories:
+    - system
+dependencies:
+  - ansible-role-homebrew
