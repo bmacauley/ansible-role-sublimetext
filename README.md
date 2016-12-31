@@ -71,4 +71,4 @@ MIT
 
 Brian Macauley
 
-Heavily based on code by[Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
+Heavily based on code by [Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
