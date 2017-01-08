@@ -4,9 +4,10 @@
 
 
 - name: Create symlink for the subl command
-  src: "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
-  dest: "/usr/local/bin/subl"
-  state: link
+  file:
+    src: "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+    dest: "/usr/local/bin/subl"
+    state: link
 
 
 - name: Create directories for SublimeText
