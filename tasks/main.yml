@@ -1,7 +1,13 @@
 ---
-
 - name: Install SublimeText 3
   homebrew_cask: name=sublime-text state=present
+
+
+- name: Create symlink for the subl command
+  src: "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+  dest: "/usr/local/bin/subl"
+  state: link
+
 
 - name: Create directories for SublimeText
   file:
@@ -14,10 +20,12 @@
     - ~/Library/Application Support/Sublime Text 3/Packages/User
     - ~/Library/Application Support/Sublime Text 3/Installed Packages
 
+
 - name: Download/Install Package Control
   get_url:
     url: "http://sublime.wbond.net/Package%20Control.sublime-package"
     dest: "~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package"
+
 
 - name: Download/Update SublimeText plugins
   git:
@@ -27,6 +35,7 @@
     repo: "{{item.repo}}"
     dest: "~/Library/Application Support/Sublime Text 3/Packages/{{item.dest}}"
   with_items: "{{ sublime_packages }}"
+
 
 - name: Render the SublimeText config template
   template: src=config.j2 dest="~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
