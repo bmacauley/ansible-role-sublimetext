@@ -59,16 +59,13 @@ More extensive set:
 
 * [bmacauley/ansible-role-homebrew](https://github.com/bmacauley/ansible-role-homebrew)
 
-# Usage
-
-
-
 # License
 
-MIT
+[MIT]()
 
 # Author
 
-Brian Macauley
+[Brian Macauley](https://github.com/bmacauley)  
+brian.macauley@gmail.com
 
-Heavily based on code by [Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
+Based on code by [Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
