@@ -68,4 +68,4 @@ More extensive set:
 [Brian Macauley](https://github.com/bmacauley)  
 brian.macauley@gmail.com
 
-Based on code by [Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
+Based on [superlumic/ansible-role-sublimetext](https://github.com/superlumic/ansible-role-sublimetext)
