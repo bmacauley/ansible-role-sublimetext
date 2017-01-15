@@ -19,7 +19,7 @@ sublime_packages:
   - dest: "Monokai Gray"
     repo: "https://github.com/IanWold/MonokaiGray.git"
     version: "master"
-sublime_text_color_scheme: "MonokaiGray (SL).tmTheme"
+sublime_text_color_scheme: "Packages/Monokai Gray/MonokaiGray.tmTheme"
 sublime_text_theme: "Soda Dark 3.sublime-theme"
 ```
 
