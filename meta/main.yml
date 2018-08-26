@@ -11,4 +11,4 @@ galaxy_info:
   categories:
     - system
 dependencies:
-  - ansible-role-homebrew
+  - geerlingguy.homebrew
