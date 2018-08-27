@@ -1,4 +1,2 @@
 ---
-- src: https://github.com/bmacauley/ansible-role-homebrew
-  version: v0.2
-  name: ansible-role-homebrew
+-  name: geerlingguy.homebrew
